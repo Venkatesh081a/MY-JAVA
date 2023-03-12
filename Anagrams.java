@@ -12,7 +12,7 @@ public class Anagrams {
 		System.out.println(isAnagram(str1,str2));
 	}
 
-	
+	// finding anagrams
 	public static boolean isAnagram(String str1,String str2)
 	{
 		if(str1.length() != str2.length())
